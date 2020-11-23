@@ -3,3 +3,4 @@ This work is licensed under a
 
 You can sign-up for an email delivered version of this programme at
 [https://www.iwn-it.com/30-thoughts-in-30-days](https://www.iwn-it.com/30-thoughts-in-30-days).
+

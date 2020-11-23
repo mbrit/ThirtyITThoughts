@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>30 IT Thoughts in 30 Days</title>
+    </head>
+
+<xmp theme="united" style="display:none;">
+
+# Thought 9: Backups (Part 2)
+[Home](/)
+
+Hi,
+
+Thought 9 of “30 IT Thoughts” follows on directly from thought 8… backups. 
+
+I mentioned last time that a common error is to assume that just because you are putting your files in Dropbox or another service like it – like iCloud, OneDrive, or Google Drive – you are not backing up per se. These services are synchronisation services, and are designed to share data within a group. SMEs typically use them instead of having a server that they store files on. In many ways, this approach is great because a) it means that you don’t have to be in the office to access files, and b) you’re putting files somewhere that is a lot safe than a computer in the office.
+
+The issue with using synchronisation services is that they are designed to automatically replicate changes around a group of people. If you add a file to your computer, that file appears on everyone else. But, if you delete a file, it also gets deleted from everyone else’s – which is great, if you mean to delete the file. Most importantly if you suffer a malware attack and the data on your computer gets corrupted, that corruption flows onto all the other computers in the network. It’s this particular point that stops synchronisation services from being safe as backup solution. One malware infection and, before you know it, every file you have on every computer has been corrupted.
+
+(If this happens, with most cloud providers you can “roll back” to previous versions and recover your data, but it is often fiddly. As we’ll talk about in a later “thought”, the time it takes you to recover from a disaster needs to be optimised to be as short as possible.)
+
+For SMEs, synchronisation solutions work really well, and it’s not surprising that so many people use them and get tripped up by this mismatching of purpose. The best approach is then to augment the synchronisation service with some sort of backup.
+
+Backing up to the cloud is the solution that most SMEs should use, and we can look at two advantages of this approach. One, it’s completely automatic, and as such you don’t forget to do it each day. Two, the alternative is that you backup to an external drive that you (very sensibly) take home so that if the office catches fire overnight you have an offsite copy. The risk here is that you stop off at Sainsbury’s on the way home, your car gets broken into and now you have a data breach, because likely the disk was not encrypted. (We’ll talk about encryption more later.) Legislating against either or both of these eventualities usually doesn’t balance out when you consider that device-to-cloud backup costs about £4 per device per month.
+
+However, this device-to-cloud approach is itself a little “old school”. What’s better is to make a backup of the data whilst it is in the cloud. 
+
+A common thing to assume is that that data in the cloud is safe. Whilst (major) cloud services typically do not lose data – the fact that Microsoft or Google hosts your email and files in billion dollar data centres that are basically impregnable – someone can still go in and delete your data by acts of malice or idiocy. What happens if an employee (or ex-employee) has the ability to delete all your emails, or your files, and does so. You still need a backup.
+
+A good solution is “cloud-to-cloud” backup. Store all your files in the cloud, and then using a separate provider to take a copy of that data and keep it safe for you, should you ever need to restore it. The wrinkle here is that this essentially means that you have to use a synchronisation service that can accommodate a cloud-to-cloud backup, and that means using either SharePoint with OneDrive, or G Suite with Google Drive. 
+
+Take care,
+Matt
+
+[Next](/10.html)
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+
+</html>
+
